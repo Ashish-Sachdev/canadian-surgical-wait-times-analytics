@@ -80,6 +80,8 @@ flowchart TD
 └── tests/                   # Automated quality checks
 ```
 
+For a beginner-friendly explanation of every folder, file, and connection in the project, read the [complete repository guide](docs/repository_guide.md).
+
 ## Quick start
 
 Prerequisites: Python 3.11+ and Git.
