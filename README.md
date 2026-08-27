@@ -1,10 +1,10 @@
 # Canadian Surgical Wait Times Analytics
 
-An approachable two-week data analytics project for comparing surgical wait-time performance across Canada's 10 provinces, tracking a small set of KPIs, storing clean data in DuckDB, and producing a simple regression-based forecast.
+An approachable analytics project for comparing surgical wait-time performance across Canada's 10 provinces, tracking a small set of KPIs, storing clean data in DuckDB, and producing a simple regression-based forecast.
 
 > Status: two-week MVP scaffold. The repository contains a verified source catalogue, simple harmonized schema, starter DuckDB pipeline, 10-working-day roadmap, and room for future expansion. Raw source files are intentionally not committed.
 
-## Two-week MVP
+## MVP
 
 The first release intentionally stays small:
 
