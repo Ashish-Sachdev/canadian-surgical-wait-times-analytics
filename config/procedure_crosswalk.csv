@@ -1,0 +1,14 @@
+canonical_procedure_code,canonical_procedure_name,benchmark_days,source_id,source_label,include_in_comparison,notes
+HIP_REPLACEMENT,Hip replacement,182,cihi_priority_2008_2025,Hip replacement,true,Includes primary and revision under CIHI definition
+KNEE_REPLACEMENT,Knee replacement,182,cihi_priority_2008_2025,Knee replacement,true,Includes primary and revision under CIHI definition
+CATARACT,Cataract surgery,112,cihi_priority_2008_2024,Cataract surgery,true,CIHI comparison is first eye only; provincial sources may combine eyes
+HIP_FRACTURE,Hip fracture repair,2,cihi_priority_2008_2024,Hip fracture repair,true,Benchmark is 48 hours; store wait unit carefully before converting
+CABG,Coronary artery bypass graft,,cihi_priority_2008_2024,CABG,true,No single current pan-Canadian benchmark due urgency variation
+BREAST_CANCER,Breast cancer surgery,,cihi_priority_2008_2024,Breast cancer surgery,true,Proven and suspected cancers under CIHI methodology
+BLADDER_CANCER,Bladder cancer surgery,,cihi_priority_2008_2024,Bladder cancer surgery,true,Check provincial coverage
+COLORECTAL_CANCER,Colorectal cancer surgery,,cihi_priority_2008_2024,Colorectal cancer surgery,true,Check provincial coverage
+LUNG_CANCER,Lung cancer surgery,,cihi_priority_2008_2024,Lung cancer surgery,true,Check provincial coverage
+PROSTATE_CANCER,Prostate cancer surgery,,cihi_priority_2008_2024,Prostate cancer surgery,true,Check provincial coverage
+RADIATION,Radiation therapy,28,cihi_priority_2008_2024,Radiation therapy,false,Not surgery; keep in optional procedure-access module
+CT,CT scan,,cihi_priority_2008_2024,CT scan,false,Diagnostic imaging not surgery
+MRI,MRI scan,,cihi_priority_2008_2024,MRI scan,false,Diagnostic imaging not surgery

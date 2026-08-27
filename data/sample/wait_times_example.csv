@@ -1,0 +1,13 @@
+source_id,province_code,geography_level,geography_name,procedure_code,procedure_name,period_start,period_end,reporting_frequency,wait_segment,median_wait_days,p90_wait_days,completed_volume,waiting_volume,benchmark_days,within_benchmark_pct,is_suppressed,comparability_tier,definition_version,source_url,retrieved_at
+synthetic_demo,BC,province,British Columbia,HIP_REPLACEMENT,Hip replacement,2023-04-01,2023-09-30,semiannual,wait_2,110,240,4200,,182,78,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,BC,province,British Columbia,HIP_REPLACEMENT,Hip replacement,2024-04-01,2024-09-30,semiannual,wait_2,105,228,4380,,182,80,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,AB,province,Alberta,HIP_REPLACEMENT,Hip replacement,2023-04-01,2023-09-30,semiannual,wait_2,125,265,3900,,182,72,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,AB,province,Alberta,HIP_REPLACEMENT,Hip replacement,2024-04-01,2024-09-30,semiannual,wait_2,118,250,4100,,182,75,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,ON,province,Ontario,HIP_REPLACEMENT,Hip replacement,2023-04-01,2023-09-30,semiannual,wait_2,95,205,9800,,182,84,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,ON,province,Ontario,HIP_REPLACEMENT,Hip replacement,2024-04-01,2024-09-30,semiannual,wait_2,92,198,10100,,182,86,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,BC,province,British Columbia,KNEE_REPLACEMENT,Knee replacement,2023-04-01,2023-09-30,semiannual,wait_2,150,320,6100,,182,62,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,BC,province,British Columbia,KNEE_REPLACEMENT,Knee replacement,2024-04-01,2024-09-30,semiannual,wait_2,144,305,6400,,182,65,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,AB,province,Alberta,KNEE_REPLACEMENT,Knee replacement,2023-04-01,2023-09-30,semiannual,wait_2,172,355,5700,,182,55,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,AB,province,Alberta,KNEE_REPLACEMENT,Knee replacement,2024-04-01,2024-09-30,semiannual,wait_2,165,340,5900,,182,58,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,ON,province,Ontario,KNEE_REPLACEMENT,Knee replacement,2023-04-01,2023-09-30,semiannual,wait_2,130,275,13200,,182,70,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27
+synthetic_demo,ON,province,Ontario,KNEE_REPLACEMENT,Knee replacement,2024-04-01,2024-09-30,semiannual,wait_2,126,266,13600,,182,73,false,A,demo-v1,https://example.invalid/synthetic,2026-08-27

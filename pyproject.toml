@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canadian-surgical-wait-times"
+version = "0.1.0"
+description = "Analytics pipeline for Canadian surgical wait-time comparisons"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb>=1.1,<2",
+  "pandas>=2.2,<3",
+  "openpyxl>=3.1,<4",
+  "pyarrow>=17,<21",
+  "scikit-learn>=1.5,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<10",
+  "ruff>=0.8,<1",
+  "jupyterlab>=4,<5",
+]
+dashboard = [
+  "plotly>=5,<7",
+  "streamlit>=1.40,<2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
